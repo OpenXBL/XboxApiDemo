@@ -36,12 +36,9 @@ $settings = $account[0]['profileUsers'][0]['settings'];
   <body>
     <div class="container">
       <div class="form-signin">
-
-
-   
+        
         <img src="<?php echo $settings[0]['value'].'&w=100&h=100'; ?>" class="gamerpic" />
         <h2><?php echo $settings[2]['value']; ?></h2>
-
         <p><?php echo $settings[6]['value'] . ' | ' . $settings[8]['value']; ?></p>
 
       </div>
